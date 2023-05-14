@@ -2,35 +2,88 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home Page</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
 
     <header>
 
-        <div id="logo">
-            Nutricionista
+        <form action="" id="register">
+
+            <p>Cadastre-se</p>
+            <div class="field"><input type="text" placeholder="Digite seu nome..."></div>
+            <div class="field"><input type="email" placeholder="Digite seu e-mail..."></div>
+            <div class="field"><input type="date" placeholder="Data de nascimento..."></div>
+            <div class="field">
+                <label><input type="radio" name="gender" value="M"><span>Masculino</span></label>
+                <label><input type="radio" name="gender" value="F"><span>Feminino</span></label>
+            </div>
+
+            <button>Registrar</button>
+
+        </form>
+
+        <div class="bg-gradient">
+
+            <div class="header-border">
+
+                <div id="logo">
+                    Nutricionista
+                </div>
+
+                <nav class="menu">
+                    <button type="button" class="open-menu"><i class="fas fa-bars"></i></button>
+                    <div class="backdrop"></div>
+                    <ul>
+                        <li class="close-menu"><button type="button"><i class="fas fa-times"></i></button></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
         </div>
 
-        <nav id="menu"> 
-            <ul>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="about.html">About</a></li>
-               <li><a href="contact.html">Contact</a></li> 
-            </ul>
-
-
-        </nav>
- 
     </header>
+    
+    <section class="home">
 
-    <section></section>
+        <main class="container">
 
-    <footer></footer>
-   
+            <div class="title">
+                <h1>Raul Nutricionista</h1>
+            </div>
+
+            <p>Meu nome é Raul e sou nutricionista formado pela USP-RP. Cadastre-se e marque uma consulta particular comigo, profissional a mais de 10 anos no mercado!</p>
+           
+        </main>
+
+    </section>
+
+    <footer>
+
+        <div class="container">
+
+            <p>Todos os direitos reservados</p>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </footer>
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>
