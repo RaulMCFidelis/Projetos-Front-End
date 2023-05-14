@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    min-height: 500px;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+}
+
+header #logo {
+    width: 200px;
+    
+}
+header #menu {
+    flex: 1;
+}
+head #menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+header #menu li {
+    flex: 1;
+    line-height: 28px;
+}
+header #menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
