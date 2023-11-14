@@ -62,30 +62,28 @@ h2{
 }
 
 .container{
-    margin-left: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
 }
 
 .d1{
-    width: 50%;
-    padding: 20px;
-    margin: 20px;
-    display: inline-block;
+    width: 100%;
     background-color: blue;
-    margin-right: -4px;
 }
 
 .d2{
-    width: 300px;
+    width: 50%;
     height: 300px;
-    margin-right: -4px;
-    margin-top: 20px;
-    display: inline-block;
+    
     background-color: red;
 }
 
 .d3{
-    width: 300px;
+    width: 50%;
     height: 300px;
-    display: inline-block;
+    
     background-color: green;
 }
