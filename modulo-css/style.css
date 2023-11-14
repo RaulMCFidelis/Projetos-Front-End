@@ -60,3 +60,24 @@ h2{
     background-size: cover;
     background-color: cyan;
 }
+
+.d1{
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+    background-color: blue;
+}
+
+.d2{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: red;
+}
+
+.d3{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: green;
+}
