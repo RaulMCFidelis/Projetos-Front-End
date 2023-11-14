@@ -42,3 +42,11 @@ p.paragrafo{
 [type=text]{
     width: 900px;
 }
+
+div{
+    background-color: rgba(25, 178, 178, 0.596);
+}
+
+h2{
+    color: rgba(34, 0, 255, 0.956);
+}
