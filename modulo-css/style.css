@@ -26,3 +26,19 @@ h2{
 p.paragrafo{
     font-size: 30px;
 }
+
+[name=paragrafo]{
+    color: blue;
+}
+
+[name]{
+    color: blue;
+}
+
+[type=button]{
+    background-color: red;
+}
+
+[type=text]{
+    width: 900px;
+}
