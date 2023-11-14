@@ -61,16 +61,24 @@ h2{
     background-color: cyan;
 }
 
+.container{
+    margin-left: 20px; 
+}
+
 .d1{
     width: 50%;
-    height: 300px;
+    padding: 20px;
+    margin: 20px;
     display: inline-block;
     background-color: blue;
+    margin-right: -4px;
 }
 
 .d2{
     width: 300px;
     height: 300px;
+    margin-right: -4px;
+    margin-top: 20px;
     display: inline-block;
     background-color: red;
 }
