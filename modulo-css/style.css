@@ -10,3 +10,19 @@ h2{
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.teste{
+    color: red;
+}
+
+#teste{
+    color: green;
+}
+
+.paragrafo{
+    font-size: 10px;
+}
+
+p.paragrafo{
+    font-size: 30px;
+}
